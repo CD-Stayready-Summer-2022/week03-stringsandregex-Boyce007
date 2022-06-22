@@ -12,6 +12,16 @@ public class Result {
 
     public long repeatedString(String s, long n) {
         // Write your code here
+        long counter = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == 'a') {
+                counter++;
+            }
+        }
+        long wholeCount = (n / s.length());
+        long remainder = n % s.length();
+
+
         return 0;
     }
 }
